@@ -1,17 +1,23 @@
 {
-    "name": "@btdev/source",
-    "version": "0.0.0",
+    "name": "nibzilla",
+    "version": "0.0.1",
     "license": "MIT",
     "scripts": {},
     "private": true,
     "devDependencies": {
+        "@btang/ts-lib": "^0.1.7",
         "@nx/eslint": "19.3.0",
         "@nx/eslint-plugin": "19.3.0",
+        "@nx/express": "^19.3.0",
         "@nx/jest": "19.3.0",
         "@nx/js": "19.3.0",
+        "@nx/node": "19.3.0",
         "@nx/vite": "19.3.0",
         "@nx/web": "^19.3.0",
+        "@nx/webpack": "19.3.0",
         "@nx/workspace": "19.3.0",
+        "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
+        "@svgr/webpack": "^8.0.1",
         "@swc-node/register": "~1.9.1",
         "@swc/core": "~1.5.7",
         "@swc/helpers": "~0.5.11",
@@ -21,6 +27,7 @@
         "@typescript-eslint/eslint-plugin": "^7.3.0",
         "@typescript-eslint/parser": "^7.3.0",
         "@vitest/ui": "^1.3.1",
+        "ajv": "^8.16.0",
         "eslint": "~8.57.0",
         "eslint-config-prettier": "^9.0.0",
         "jest": "^29.4.1",
@@ -30,18 +37,21 @@
         "less": "^4.2.0",
         "nx": "19.3.0",
         "prettier": "^2.6.2",
+        "react-refresh": "^0.10.0",
         "solid-devtools": "^0.30.1",
         "solid-js": "^1.8.17",
         "swc-loader": "0.1.15",
         "ts-jest": "^29.1.0",
         "ts-node": "10.9.1",
         "typescript": "~5.4.2",
-        "vite": "^5.0.0",
+        "vite": "^5.3.1",
         "vite-plugin-solid": "^2.10.2",
-        "vitest": "^1.3.1"
+        "vitest": "^1.3.1",
+        "webpack-cli": "^5.1.4"
     },
     "nx": {},
     "dependencies": {
-        "tslib": "^2.3.0"
+        "axios": "^1.6.0",
+        "express": "^4.18.1"
     }
 }
