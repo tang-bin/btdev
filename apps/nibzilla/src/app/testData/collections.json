@@ -1,0 +1,21 @@
+[
+    {
+        "uid": 1,
+        "title": "Collection 1",
+        "children": [],
+        "layout": [
+            {
+                "sectionId": 1,
+                "position": "0 - 0 0 20% -"
+            },
+            {
+                "sectionId": 2,
+                "position": "0 0 - 20% - 50%"
+            },
+            {
+                "sectionId": 3,
+                "position": "- 0 0 20% - 50%"
+            }
+        ]
+    }
+]
